@@ -11,6 +11,7 @@ This repository is meant to be **copied or vendored** into a product repo, or ke
 | [`ui-prototyping/SKILL.md`](./ui-prototyping/SKILL.md) | Guides rapid UI layout exploration and design variants (branch safety, Ant Design–friendly patterns, scope limits). Originally written for **Leon App** (Next.js + Ant Design); you can adapt wording in a fork if your stack differs. |
 | [`.cursor/skill-template.md`](./.cursor/skill-template.md) | Template for authoring new **Cursor Agent Skills** (`SKILL.md` structure, frontmatter, multi-file and tool-restricted patterns). |
 | [`.cursor/subagent-template.md`](./.cursor/subagent-template.md) | Template for authoring **Cursor subagents** (`.cursor/agents/$NAME.md` YAML + prompt guidance). |
+| [`.cursor/agents/git-commit-organizer.md`](./.cursor/agents/git-commit-organizer.md) | Ready-to-copy **subagent** that groups changes and proposes semantic / Conventional Commits–style commits (asks approval before committing). |
 
 Each skill’s `SKILL.md` may include YAML frontmatter (for example `name` and `description`) so tools can show a short label and when to apply the skill.
 
